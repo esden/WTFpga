@@ -49,7 +49,7 @@ boards. https://github.com/icebreaker-fpga/icebreaker  https://github.com/icebre
 
 3. Attach the 7 segment board to iCEBreaker port P1A, and attach the DIP switch board to iCEBreaker port P1B.
 
-4. Walk through the pdf manual included. `pdfbook --lettterpaper wtfpgamanual.pdf` should prepare it for printing as a booklet if you prefer.
+4. Walk through the pdf manual included. `pdfbook --letterpaper wtfpgamanual.pdf` should prepare it for printing as a booklet if you prefer.
 
 Derivative use
 ==============
