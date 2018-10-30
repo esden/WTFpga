@@ -32,14 +32,24 @@ Version 3.0 targetting the iCEBreaker dev board and using fully open source syth
 DIY
 ===
 If you'd like to do the V2.0 workshop on your own, using the xilinx dev board and tools, before you start, you'll need to:
+
 1. Install Xilinx Vivado. The free WebPack version is sufficent: https://www.xilinx.com/products/design-tools/vivado.html
+
 2. Aquire a Diglilent Basys 3 Board. Students qualify for an academic discount: http://digilent.com/basys3
-3. Walk through the pdf manual included. `pdfbook --lettterpaper wtfpgamanual.pdf` should prepare it for printing as a booklet if you prefer.
+
+3. Walk through the pdf manual included. `pdfbook --letterpaper wtfpgamanual.pdf` should prepare it for printing as a booklet if you prefer.
 
 If you'd like to do the V3.0 workshop on your own, using the iCEBreaker dev board and tools, before you start, you'll need to:
+
 1. Install icestudio, nextpnr-ice40, yosys. For the information on how to install them refer to http://www.clifford.at/icestorm/#install
-2. Aquire a 1BitSquared iCEBreaker board. https://github.com/icebreaker-fpga/icebreaker
-3. Walk through the pdf manual included. `pdfbook --lettterpaper wtfpgamanual.pdf` should prepare it for printing as a booklet if you prefer.
+
+2. Aquire a 1BitSquared iCEBreaker board and the iCEBreaker 7segment
+display and DIP switch PMOD
+boards. https://github.com/icebreaker-fpga/icebreaker  https://github.com/icebreaker-fpga/icebreaker-pmod
+
+3. Attach the 7 segment board to iCEBreaker port P1A, and attach the DIP switch board to iCEBreaker port P1B.
+
+4. Walk through the pdf manual included. `pdfbook --lettterpaper wtfpgamanual.pdf` should prepare it for printing as a booklet if you prefer.
 
 Derivative use
 ==============
