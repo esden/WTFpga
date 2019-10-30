@@ -1,15 +1,11 @@
 iCEBreaker development on Windows
 ======
 
-*1. Get the toolchain* (icestudio, nextpnr-ice40, yosys, make) 
+*1. Get the toolchain* (icestudio, nextpnr-ice40, yosys, make, iceprog) 
 
 The Fomu project (https://fomu.im/) has a ready-to-use download to be used on Windows. Get it at https://github.com/im-tomu/fomu-toolchain, extract it and add the bin directory to your PATH (details are explained there).
 
-*2. Get iceprog* 
-
-The only thing that's missing in the Fomu toolchain in order to run the WTFpga examples is iceprog. You can get it from https://github.com/FPGAwars/toolchain-icestorm/releases. Unzip the latest release (amd64 is what you want) and copy iceprog.exe to your fomu bin folder.
-
-*3. Install USB driver* 
+*2. Install USB driver* 
 
 iceprog uses libusb. In order to get it working, you need to enable the correct driver:
 
