@@ -13,7 +13,7 @@ module top(
     );
 
 //define wires and registers here
-	wire [7:0] disp0,disp1;
+	wire [6:0] disp0,disp1;
 	wire displayClock;
 	wire wire1, wire2;
 	
